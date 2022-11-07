@@ -1,8 +1,8 @@
-Package: myPackage
+Package: unemp_lux_r4m
 Type: Package
 Title: Clean Lux Unemployment Data
 Version: 0.1.0
-Authors@R: person("Bruno", "Rodrigues", email = "bruno@brodrigues.co",
+Authors@R: person("Hamed", "Vaheb", email = "hamed.vaheb@gmail.com",
   role = c("aut", "cre"))
 Description: This package allows users to easily get unemployent data for Luxembourg
     from raw csv files
@@ -21,5 +21,6 @@ Suggests:
     knitr,
     reader,
     rmarkdown,
-    testthat,
+    testthat (>= 3.0.0),
     tibble
+Config/testthat/edition: 3
